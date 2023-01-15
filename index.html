@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Pill Box App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="top">
+            <div class="header-row">
+                <i class="fa fa-bars"></i>
+                <span class="heading">Information</span>
+                <i class="fa fa-bell"></i>
+            </div>
+            <div class="calender">
+
+                <div class="swipe-icon">
+                    <i class="fas fa-caret-left"></i>
+                </div>
+
+                <div class="date1">
+                    <div class="month">January</div>
+                    <div class="day">21</div>
+                </div>
+
+                <div class="date2">
+                    <div class="month">January</div>
+                    <div class="day">22</div>
+                </div>
+
+                <div class="date3">
+                    <div class="month">January</div>
+                    <div class="day">23</div>
+                </div>
+
+                <div class="swipe-icon">
+                    <i class="fas fa-caret-right"></i>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="middle">
+            <div class="scanning">
+                <div class="scanning-section">
+                    <span class="text">Scan to get prescription</span>
+                    <i class="fas fa-camera" style="font-size:32px;color:rgb(134, 118, 118)"></i>
+                </div>
+            </div>
+        </div>
+        
+        <div class="bottom">
+            <div class="history-tab">
+                <span class="History-tab active">History</span>
+                <i class="fas fa-filter"></i>
+            </div>
+            <div class="pill-row">
+                <div class="pill-icon">
+                    <svg width="60" height="60" class="pill-svg">
+                        <circle r="28" cx="30" cy="30" class="pill-track"></circle>
+                        <circle r="28" cx="30" cy="30" class="pill-filling" stroke="#23b3ee" stroke-dashoffset="100"></circle>
+                    </svg>
+                    <i class="fas fa-pills icon"></i>
+                </div>
+                <div class="pill-name-col">
+                    <span class="pill-name">Amoxcillin</span>
+                    <span class="pill-desc">3 times/week</span>
+                </div>
+                <div class="pill-amount-col">
+                    <span class="pill-amount">15 items</span>
+                    <span class="pill-amount-desc">1 pill after meals</span>
+                </div>
+            </div>
+            <div class="pill-row">
+                <div class="pill-icon">
+                    <svg width="60" height="60" class="pill-svg">
+                        <circle r="28" cx="30" cy="30" class="pill-track"></circle>
+                        <circle r="28" cx="30" cy="30" class="pill-filling" stroke="#eb2bbe" stroke-dashoffset="110"></circle>
+                    </svg>
+                    <i class="fas fa-pills icon"></i>
+                </div>
+                <div class="pill-name-col">
+                    <span class="pill-name">Tylenol</span>
+                    <span class="pill-desc">Daily</span>
+                </div>
+                <div class="pill-amount-col">
+                    <span class="pill-amount">20 items</span>
+                    <span class="pill-amount-desc">2 pills after meals</span>
+                </div>
+            </div>
+            <div class="pill-row">
+                <div class="pill-icon">
+                    <svg width="60" height="60" class="pill-svg">
+                        <circle r="28" cx="30" cy="30" class="pill-track"></circle>
+                        <circle r="28" cx="30" cy="30" class="pill-filling" stroke="#f4af45" stroke-dashoffset="130"></circle>
+                    </svg>
+                    <i class='fa-solid fa-prescription-bottle-medical icon'></i>
+                </div>
+                <div class="pill-name-col">
+                    <span class="pill-name">Pepto-Bismol</span>
+                    <span class="pill-desc">Daily</span>
+                </div>
+                <div class="pill-amount-col">
+                    <span class="pill-amount">1 item</span>
+                    <span class="pill-amount-desc">30ml/hour</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
