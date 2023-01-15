@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@600&family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #cfdaf6;
+}
+
+div.container {
+    width: 300px;
+    height: 650px;
+    background: linear-gradient(to bottom, rgb(133, 207, 239) 0%, rgb(6, 89, 185) 100%);
+    border-radius: 30px;
+}
+
+div.header-row {
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #f9ffff;
+}
+
+span.heading {
+    font-weight: 600;
+    margin-left: 20px;
+    margin-right: auto;
+}
+
+i.fa.fa-bars {
+    margin-left: 5px;
+}
+
+i.fa.fa-bell {
+    margin-right: 5px;
+}
+
+div.calender {
+    color: #f9ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+div.swipe-icon {
+    display: flex;
+    border: 1px solid #f9ffff;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+div.date1 {
+    color: transparent;
+    text-shadow: 0 0 5px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.date2 {
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.date3 {
+    color: transparent;
+    text-shadow: 0 0 5px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.day {
+    font-size: 2.5em;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+div.top {
+    padding-top: 35px;
+    padding-bottom: 70px;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+div.middle {
+    background: whitesmoke;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: -30px;
+    padding-right: 30px;
+}
+
+span.text {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -27px;
+    margin-left: 45px;
+}
+
+i.fa-camera {
+    padding-left: 15px;
+}
+
+div.bottom {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    margin-top: -40px;
+}
+
+div.history-tab {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+i.fa-filter {
+    color: #9ca3c2;
+    padding-left: 10px;
+}
+
+circle.pill-track {
+    stroke: #e3e7e8;
+    stroke-width: 3;
+    fill: none;
+}
+
+circle.pill-filling {
+    fill: none;
+    stroke-linecap: round;
+    transform-origin: center ;
+    transform: rotate(-90deg);
+}
+
+div.pill-row {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+div.pill-icon {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+
+svg.pill-svg {
+    position: absolute;
+    margin-top: 10px;
+}
+
+i.icon {
+    position: absolute;
+    margin-top: 10px;
+    color: #9ca3c2;
+}
+
+div.pill-name-col {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+span.pill-name,
+span.pill-amount {
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 3px;
+    color: #24355b;
+}
+
+span.pill-desc,
+span.pill-amount-desc {
+    font-weight: 600;
+    font-size: 10px;
+    color: #9ca3c2;
+}
+
+div.pill-amount-col {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+span.active {
+    color: #24355b;
+    border-bottom: 3px solid #24355b;
+}
